@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inscription</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="accueil.html">Home</a>
+                <a href="Projet_tache.html">Projet & Taches </a>
+                <a href="liste_emp.html">Liste employes </a>
+                <a href="inscription.html">Inscription </a>
+            </nav>
+            <hr/>
+        </header>
+
+        <section align="center">
+            <img src="aseests/img1.jpg" alt="image" height="100%" width="50%" alt="banner">
+            <form action  id="form">
+            </form>
+                <center> <table>
+                    <tr>
+                      <td><label for="nom">Nom :</label></td>
+                      <td><input type="text" name="nom" id="nom" ></td>
+                    </tr>
+                    <tr>
+                      <td><label for="prenom">Prénom :</label></td>
+                      <td><input type="text" name="prenom" id="prenom"></td>
+                      <div class="error msg" id="prenom erreur"></div>
+                    </tr>
+                    <tr>
+                      <td><label for="email">Email :</label></td>
+                      <td><input type="email" name="email" id="email" ></td>
+                    <div class="error msg" id="email error"></div>
+                    </tr>
+                    <tr>
+                      <td><label for="telephone">Téléphone :</label></td>
+                      <td><input type="text" name="telephone" id="telephone" ></td>
+                      <div class="error msg" id="num erreur"></div>
+                    </tr>
+                    <tr>
+                      <td><label for="date_naissance">Date de naissance :</label></td>
+                      <td><input type="date" name="date_naissance" id="date_naissance"></td>
+                      <div class="error msg" id="date de naissance erreur"></div>
+                    </tr>
+                    <tr>
+                      <td><label for="mot_de_passe">Mot de passe :</label></td>
+                      <td><input type="password" name="mot_de_passe" id="mot_de_passe">
+                        <div class="error msg" id="mot de passe erreur"></div>
+                    </tr>
+                </center>
+                <td>  <input type="submit" value="S'inscrire" /> </td> 
+                  </table>
+                  
+            </form>
+        </section>
+                
+        
+            </form>
+        </section>
+
+        <footer>
+            <hr>
+            <p>Vous pouvez nous contacter <a href="mailto:contact@gmail.com">mail</a> </p>
+            <p>Adresse : Ghazela,Tunis</p>
+        </footer>
+        <script src="inscription.js"></script>
+    </body>
+</html>
