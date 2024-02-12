@@ -26,7 +26,7 @@ function validateName(){
     var nameError = document.getElementById("NameError")
     if(!NameValue.match(pattern))
     {
-        nameError.innerHTML = "<span style = 'color :red'> Nom ne doit contenir que des lettres et doit avoir au moins un caractere</span> "
+        nameError.innerHTML = "<span style = 'color :red'> Nom ne doit contenir que des lettres et doit avoir au moins un caractere </span>"
     }
     else
     {
